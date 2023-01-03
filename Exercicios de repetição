@@ -1,0 +1,53 @@
+//Programa que conta a quantidade de numeros negativos, positivos e iguais a zero.
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+      //declarando valores positivos,negativos eiguais a zero.
+      int valorz, valorp, valorn, numero;
+
+        valorp = 0;
+        valorn = 0;
+        valorz = 0;
+
+       
+        //criando repetições 
+        for (int i = 0; i < 5; i++)
+        {
+            Console.WriteLine("Digite um numero");
+            numero = int.Parse(Console.ReadLine());
+
+           //se o numero for mairo que 0 adiciona 1 em valorp
+            if (numero > 0)
+            {
+                valorp++;
+            }
+          //se o numero for menor que zero ele adiciona 1 em valorn negativo
+            else if (numero < 0)
+            {
+              valorn++;
+
+                
+
+            }
+          //se o valor for igual a zero adiciona 1 em valorz
+            else if (numero == 0)
+            {
+                valorz++;
+
+                 
+            }
+
+          }
+      //Imprime os valores
+      
+        Console.WriteLine("Valores positivos: " + valorp);
+        Console.WriteLine("Valores negativos: " + valorn);
+        Console.WriteLine("Valores iguais a zero: " + valorz);
+
+
+
+    }
+}
