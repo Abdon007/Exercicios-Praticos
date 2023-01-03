@@ -1,4 +1,5 @@
 //Programa que conta a quantidade de numeros negativos, positivos e iguais a zero.
+
 using System;
 
 class Program
@@ -53,6 +54,7 @@ class Program
 }
 
 //Programa que conta a quantidade de numeros negativos, positivos e iguais a zero e mostra a porcentagem desses valores.
+
 using System;
 
 class Program
